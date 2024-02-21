@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+  .roll{
+    font-size: large;
+    
+  }
+  #result{
+    margin-top: 21px;
+  }
+</style>
+
+
+<script>
+    function roll(){
+       document.getElementById('result').innerHTML="<img src='loader.gif'>";
+         setTimeout(function(){
+            var rand=Math.floor(Math.random()*6)+1;
+            document.getElementById('result').innerHTML="<img src='image/"+rand+".png'/>";
+            
+
+
+
+        },2000);
+    }
+    
+</script>
+</head>
+<body>
+    <a href="javascript:void(0)" onclick="roll()" class="roll">Roll</a>
+    <div id="result"> </div>
+</body>
+</html>
