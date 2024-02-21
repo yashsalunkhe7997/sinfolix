@@ -1,0 +1,106 @@
+
+
+.resu{
+    width:49%;
+    height:690px;
+    margin-left:100px;
+    
+   
+    
+}
+
+.images{
+      width:250px;
+      height:200px;  
+      padding-top:51px;
+      margin-top:-10px;
+      margin-left: 15px;
+}
+
+.pro{
+    width:224px;
+    height:200px;
+    position: absolute;
+    margin-left: 247px;
+    margin-top: -213px;
+    flex-shrink: 0;
+}
+
+p{
+    font-size: medium;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300px;
+   
+}
+
+.tab{
+    width:470px;
+    height:170px;
+    font-size: medium;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    margin-left:10px;
+ 
+}
+  
+table{
+    border:1px solid aliceblue;
+    padding:1px;
+    width:450px;
+    height:150px;
+    text-align: center;
+}
+th,td{
+    padding:2px;
+    border: 1px solid aliceblue;
+    
+}
+
+/*
+.mad:hover{
+    padding: 10px;
+    background: linear-gradient(to right, #dd3675, #ee5d5d, #ee7724, #b44593);
+    box-sizing: border-box;
+    border-radius:6px;
+    box-shadow:1px 1px;
+  
+    
+}*/
+
+
+.vl{
+    width: 1px;
+    border-left: 6px solid aliceblue;
+    height: 500px;
+    margin-left:10px;
+    margin-bottom: 500px;
+}
+
+.tab2{
+width:470px;
+    height:200px;
+    font-size: medium;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    margin-left:10px
+
+}
+
+.res{
+    display: flex;
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #ee7724);
+    box-sizing: border-box;
+    border-radius:6px;
+    margin-left:10px;
+    box-shadow:5px;
+}
+
+.Project{
+    margin-left:-80px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+}

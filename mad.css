@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex-container{
+    height: 700px;
+    width: 100%;
+    background: rgba(0,0,0,0.7) url(b1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:block;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+ color: aliceblue;
+ margin-left: 10px;
+ cursor: pointer;
+}
+.oneline
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+      }
+
+   .oneline ul li
+   {
+    display: inline-block;
+    float:right;
+    padding-right: 15px;
+   }
+
+ .oneline ul li a
+ {
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 5px;
+   }
+.navbar ul li{
+    display:inline-table;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px rgb(148, 99, 81) inset
+    ,0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.content
+{
+    position: absolute;
+    color: #fffb;
+    top:40%;
+    left:30%;
+}
+.content h3{
+     font-family: sans-seri;
+     font-size: 30px;
+     margin-left: 30%;
+}
+.content h1{
+    font-size: 50px;
+
+}
+.search{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 42%;
+}
+.search input{
+     outline: none;
+     border: none;
+     padding: 12px 40px;
+     size: 1cm;
+     width: 100%;
+}
+.submit{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 49%;
+}
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: green;
+}
+.a{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+.cards
+{
+    align-content: center;
+    justify-content: space-between;
+    margin-left:8%;
+    
+   
+}
+
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(11, 104, 2, 0.7);
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: arial;
+    display:inline-block;
+    
+
+    
+  }
+  
+  
+  .price {
+    color: rgb(24, 18, 18);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #15850a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .card p button a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .corner{
+    background: url(corner.avif) ,rgba(46, 37, 37, 0.4);
+    height: 500px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 50px;
+    margin-left: 70px;
+    float: left;
+  }
+  .corner p{
+    font-size: 50px;
+    font-style: italic;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .offers .card
+  {
+    align-items: center;
+    width: 300px;
+    padding: 30px;
+    margin-left: 15px;
+  }
+  .contact
+  {
+    
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    background-color: #37a72d;
+    padding-left: 70px;
+  }
+  .contact table tr td{
+    font-size: 18px;
+    padding-top: 30px;
+    text-align:left;
+    padding-left: 120px;
+  }
+  .contact table tr th{
+    font-size: 20px;
+    text-align:left;
+    padding-left: 120px;
+  }
+  .contact table
+  {
+    padding-top: 50px;
+  }
+  .contact table tr td a{
+    text-decoration: none;
+    color: black;
+  }
